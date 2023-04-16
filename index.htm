@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></link>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <title>Librarium</title>
+</head>
+<body>
+    <div class="main">
+        <img src="Librarium.png" alt="Librarium" class="librarium">
+        <div class="searchb">
+            <span class="material-icons searchicon">search</span>
+            <input type="text" id="searchbar" placeholder="Search for books and pdfs">
+        </div>
+
+    </div>
+    <script>
+        function openpage(){
+            var x = document.getElementById("searchbar").value
+
+            if (x === "Oxford"){
+                window.open("google.com")
+
+            }
+        }
+    </script>
+</body>
+</html>
